@@ -14,7 +14,7 @@ API is accessible at http://localhost:8080
 1. http://localhost:8080/login  Actions: [POST] Body: {"email": "test3@example.com","password": "password3"}
 
 ## Example
-![Create user on Insomnia](https://drive.google.com/open?id=1vaw-M_5MNv4AeIji2bkMF1jcGGy-9S97)
+![Create user on Insomnia](resources/images/create-user.png)
 
 
 
