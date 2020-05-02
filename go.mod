@@ -1,4 +1,4 @@
-module github.com/danmbeyah/go
+module go-rest
 
 go 1.14
 
