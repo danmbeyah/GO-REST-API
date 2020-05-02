@@ -6,4 +6,5 @@
 
 ## How to run
 $ go run main.go
+
 API is accessible at http://localhost:8080
