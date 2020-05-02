@@ -8,7 +8,7 @@ import (
 	"go-rest/api/auth"
 	"go-rest/api/models"
 	"go-rest/api/responses"
-	"go-rest/api/utils/formaterror"
+	"go-rest/api/utilities/formaterror"
 	"golang.org/x/crypto/bcrypt"
 )
 
