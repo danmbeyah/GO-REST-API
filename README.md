@@ -21,3 +21,10 @@ API is accessible at http://localhost:8080
 
 `go test --run TestGetUserByID` or `go test -v --run TestGetUserByID`
 
+1. To run tests in a specific folder, CD into that test folder eg modeltests and:
+
+`go test -v`
+
+1. To run all tests, CD into tests folder and run:
+
+`go test -v ./...`
