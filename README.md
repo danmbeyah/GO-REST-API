@@ -17,7 +17,7 @@ API is accessible at http://localhost:8080
 ![Create user on Insomnia](resources/images/create-user.png)
 
 ## Tests
-1. T run individual test
+1. To run individual test
 
-`go test --run TestFindAllUsers`
+`go test --run TestGetUserByID` or `go test -v --run TestGetUserByID`
 
