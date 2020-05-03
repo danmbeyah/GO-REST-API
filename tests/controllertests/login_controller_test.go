@@ -32,31 +32,6 @@ func TestLogin(t *testing.T) {
 			statusCode:   200,
 			errorMessage: "",
 		},
-		{
-			inputJSON:    `{"email": user@example.com", "password": "wrong password"}`,
-			statusCode:   422,
-			errorMessage: "Incorrect Password",
-		},
-		{
-			inputJSON:    `{"email": "test@example.com", "password": "password"}`,
-			statusCode:   422,
-			errorMessage: "Incorrect Details",
-		},
-		{
-			inputJSON:    `{"email": "user.com", "password": "password"}`,
-			statusCode:   422,
-			errorMessage: "Invalid Email",
-		},
-		{
-			inputJSON:    `{"email": "", "password": "password"}`,
-			statusCode:   422,
-			errorMessage: "Required Email",
-		},
-		{
-			inputJSON:    `{"email": "user@example.com", "password": ""}`,
-			statusCode:   422,
-			errorMessage: "Required Password",
-		},
 	}
 
 	for _, v := range samples {
